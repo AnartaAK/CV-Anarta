@@ -1,0 +1,220 @@
+/* * {margin: 0;padding: 0;} */
+
+html, body {
+    margin-block: 20rem;
+}
+
+body{font-family: 'Montserrat', sans-serif;}
+
+#page {
+    min-height: 200px;
+    width: 60%;
+    min-width: 600px;
+    background: whitesmoke;
+    margin: 50px auto;
+    padding: 30px;
+    color: #27aae1;
+}
+
+
+.photo {
+    width: 15%;
+    min-width: 130px;
+    float: left;
+    margin-right: 20px;
+}
+
+.contact-info-box {
+    width: 70.9%;
+    display: inline-block;
+}
+
+.name {
+    margin-bottom: -5px;
+}
+.cita-cita {
+    display: inline-block;
+}
+
+.contact-details {
+    background: #27aae1;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+#tentang-saya h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#tentang-saya p {
+    padding: 0 5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #000;
+}
+
+#pendidikan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#pendidikan table th, 
+#pendidikan table td {
+    border: 1px solid #d3d3d3;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+}
+
+#pendidikan table th {
+    background-color: #27aae1;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+#pengalaman h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#pengalaman table td {
+    padding: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+#pengalaman table tr.Pengalaman-1 td:first-child {
+    width: 120px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+#pengalaman table tr.Pengalaman-1 td {
+    padding-bottom: 25px;
+}
+
+#pengalaman table tr.Pengalaman-2 td:first-child {
+    width: 120px;
+    color: gray;
+}
+
+#bio-data h3 {
+    border: 1px solid #d3d3d3;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 30px 0 10px;
+}
+
+#bio-data table td {
+    padding: 8px;
+    font-size: 15px;
+    color: #000;
+}
+
+#bio-data table tr td:first-child {
+    width: 200px;
+}
+
+#bio-data table tr td:nth-child(2) {
+    width: 300px;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    background: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+        }
+h2 {
+    text-align: center;
+    color: blue;
+    }
+label {
+    display: block;
+    margin-top: 10px;
+    }
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+        }
+.gender {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    }
+.gender input {
+    transform: scale(1.5);
+    }
+button {
+    width: 100%;
+    margin-top: 15px;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+button:hover {
+    background: darkblue;
+    }
+
+
+.back-btn {
+display: inline-block;
+margin-top: 15px;
+padding: 10px 15px;
+background: #6c757d;
+color: white;
+text-decoration: none;
+font-size: 14px;
+border-radius: 5px;
+transition: 0.3s;
+    }
+.back-btn:hover {
+background: #495057;
+    }

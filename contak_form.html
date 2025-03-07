@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required placeholder="Masukan nama anda">
+
+            <label for="phone">No Hp/WA</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]+" oninput="validatePhone(this)" placeholder="masukan nomor telepon anda">
+
+            <label>Jenis Kelamin</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                <label for="male">Laki-Laki</label>
+                <input type="radio" id="female" name="gender" value="Perempuan" required>
+                <label for="female">Perempuan</label>
+            </div>
+            
+            <label for="education">Pendidikan</label>
+            <select id="education" name="education">
+                <option value="SD">SD</option>
+                <option value="SMP">SMP</option>
+                <option value="SMA">SMA</option>
+                <option value="D3">D3</option>
+                <option value="S1">S1</option>
+                <option value="S2">S2</option>
+            </select>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="Masukan nama anda">
+            
+            <label for="purpose">Keperluan</label>
+            <textarea id="purpose" name="purpose" rows="3" required placeholder="Masukan Keperluan anda"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        <a href="cv.html" class="back-btn">⬅ Kembali ke CV</a>
+    </div>
+</body>
+</html>
